@@ -7,5 +7,5 @@ sudo systemctl enable docker.service
 sudo systemctl start docker
 sudo docker info
 sudo chown devops:devops /var/run/docker.sock
-docker image pull openjdk:22.04
+docker image pull jenkins/jenkins
 
