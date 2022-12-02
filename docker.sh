@@ -6,3 +6,4 @@ sudo usermod -aG docker devops
 sudo systemctl enable docker.service
 sudo systemctl start docker
 sudo docker info
+docker container run hello-world
